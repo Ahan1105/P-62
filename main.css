@@ -1,0 +1,40 @@
+body{
+  text-align:center;
+  background:linear-gradient(#80DEEA 0%,#039BE5 50%,#0D47A1 100%);
+}
+#ul{
+  list-style:none;
+  cursor: pointer;
+  z-index:10;
+  position:fixed;
+  margin-top:0px;
+  width:100%;
+  background-color:black;
+  top:0px;  
+  left:0px;
+}
+.links{
+  color:white;
+  display:inline;
+  margin-right:30px;
+  margin-left:30px;
+}
+#img1{
+  width:1150px;
+}
+.gvimg{
+  width:250px;
+  height:250px;
+}
+.svimg{
+  width:350px;
+  height:350px;
+  margin-top:20px;
+}
+html{
+  scroll-behavior:smooth;
+}
+.links:hover{
+  color:white;
+  font-size:18px;
+}
